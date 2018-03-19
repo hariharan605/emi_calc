@@ -1,2 +1,49 @@
-<h1>Hello World...!!</h1>
-<p>My Name is hariharan605 </p>
+<html>
+<head>
+	<title>EMI Calc</title>
+</head>
+<style>
+	
+</style>
+
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+<link rel="stylesheet" href="emicss.css">
+<script src="emis.js"></script>
+<body>
+	<div id="header"><!-- <a><img src="https://fontmeme.com/permalink/170907/50b9ccfe0cec5cb54383b3d083f62b00.png" alt="backlash-font" border="0"></a> -->EMI CALCULATOR</div>
+	<div id="mainbox">
+		<!-- <div>
+			<h1 id="arr1" class="arrows">&#8829</h1>
+			<h1  class="arrows" id="arr2">&#8829</h1>
+			<h1  class="arrows" id="arr3">&#8829</h1>
+		</div> -->
+		<div id="amount" class="divs">
+			<label class="label">Loan Amount</label>
+			<input type="text" id="loanamount" class="text" value="100000" />&nbsp&nbsp&nbsp&#8377
+			<br><br>
+		</div>
+		<div id="interest" class="divs">
+			<label class="label">Interest Rate&nbsp</label>
+			<input type="text" id="rate" class="text" value="10" />&nbsp&nbsp&nbsp%
+			<br><br>
+		</div>
+		<div id="loantenure" class="divs">
+			<label class="label">Loan Tenure&nbsp&nbsp</label>
+			<input type="text" id="tenure" class="text" value="10" />&nbsp&nbsp&nbsp years
+		</div>
+		<button id="but1" class="buts" onclick="calc(event)">Calculate</button>
+		<div id="emitbl">
+			<div class="emiresult" id="emi"></div>
+			<div class="emiresult" id="ti"></div>
+			<div class="emiresult" id="tp"></div>
+		</div>
+		<div id="InterestTbl">
+				
+		</div>
+	</div>
+
+
+</body>
+</html>
